@@ -7,9 +7,9 @@ export const handler = async (event, context) => {
   // 🔐 Configuración
   const API_URL = "https://api.openai.com/v1/chat/completions";
   const API_KEY = process.env.OPENAI_API_KEY;
-  const SUPABASE_URL = "https://sfslkqjyylovajppdrjk.supabase.co";
+  const SUPABASE_URL = "https://midldfrrtqngcjddgybs.supabase.co";
   const SUPABASE_KEY =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNmc2xrcWp5eWxvdmFqcHBkcmprIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk1MTE4MzYsImV4cCI6MjA3NTA4NzgzNn0.SDorXKMk6k67LlI8aA5GPbsjcSmkuMMMKH8to7UpoLk";
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1pZGxkZnJydHFuZ2NqZGRneWJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk4MTczMTIsImV4cCI6MjA3NTM5MzMxMn0.Xtz1bElEyw7Ygnw_w507fKrm610Tp1HOf0gzz76JV9I";
 
   const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
